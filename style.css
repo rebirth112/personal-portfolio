@@ -1,0 +1,204 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+    font-weight: bold;
+}
+
+
+.jerryimage {
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+.hero {
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    background-image: url(./img/background.jpg);
+    background-size: cover;
+    min-height: 800px;
+}
+
+.paragraph {
+    max-width: 45%;
+    text-align: center;
+    animation-delay: 2.5s;
+    animation-duration: 1s;
+    animation-name: fade-in;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+@keyframes fade-in {
+    0% {
+        transform: translateY(100%)
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0%)
+    }
+}
+
+.heading {
+    font-weight: bolder;
+    width: 0px;
+    overflow: hidden;
+    border-right: .15em solid black;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .15em;
+    animation:
+        typing 2s steps(25, end) forwards,
+        blink-caret .75s step-end infinite;
+}
+
+.typing-container {
+    display: inline-block;
+}
+
+@keyframes typing {
+    from {width:0}
+    to {width: 100%}
+}
+
+@keyframes blink-caret {
+    from, to {border-color: transparent}
+    50% {border-color: black;}
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap:wrap;
+}
+
+.button {
+    background-color: #000000;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 15px 15px;
+    margin: 4px 2px;
+    border-radius: 8px;
+    text-align: center;
+    opacity: 0.5;
+    transition: 0.5s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.button:hover {
+    opacity: 1;
+    transform: translateY(-10px);
+}
+
+#button1 {
+    animation-delay: 3s;
+    animation-duration: 1s;
+    animation-name: button-transition;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+#button2 {
+    animation-delay: 3.5s;
+    animation-duration: 1s;
+    animation-name: button-transition;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+#button3 {
+    animation-delay: 4s;
+    animation-duration: 1s;
+    animation-name: button-transition;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+@keyframes button-transition {
+    0% {
+        opacity: 0
+    }
+
+    100% {
+        opacity: 0.7
+    }
+}
+
+.about {
+    padding-top: 85px;
+}
+
+.about-header {
+    display: flex;
+    justify-content: center;
+}
+
+.about-header > h1 {
+    font-weight: bolder;
+}
+
+.introduction-header {
+    margin-bottom: 45px;
+    display: flex;
+    justify-content: center;
+}
+
+.description, .tech {
+    font-size: 18px;
+    color: black;
+    font-weight: 600;
+}
+
+
+.infoandtech {
+    margin-top: 45px;
+    display: grid;
+    grid-gap: 100px;
+    grid-template-columns: repeat( auto-fit, minmax(400px, 1fr) );
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.skills {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 50px;
+}
+
+.icon {
+    max-height: 85px;
+    transition: 0.6s;
+    opacity: 0.7;
+}
+
+.icon:hover {
+    opacity: 1;
+}
+
+#git {
+    transform: translate(12px)
+}
+
+
+#react {
+    transform: translate(-35px)
+}
+
+#sql {
+    transform: translate(-10px)
+}

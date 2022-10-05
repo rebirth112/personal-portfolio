@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="script.js" defer></script>
+    <title>Jerry's Personal Portfolio</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-xl bg-white shadow p-3 mb-0 navbar-light" style="z-index: 5">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="">
+        <img src="./img/jerry.png" height="80" class="d-inline-block align-text-center jerryimage">
+        <b class="h3" style="font-weight: bold">Jerry Yang</b>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto h4">
+          <li class="nav-item mx-2">
+            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link" href="#about">About Me</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link" href="#contact">Contact Me</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+</nav>
+    <div class="hero">
+        <div class="typing-container">
+          <h1 class="heading">Hi, my name is Jerry!</h1>
+        </div>
+        <p class="paragraph">I am an aspiring Front End Web Developer specializing in building user friendly webpages and web applications.</p>
+        <div class="links">
+            <button id = "button1" class="button" onclick="window.open('https://github.com/rebirth112?tab=repositories','_blank')">GitHub</button>
+            <button id = "button2" class="button" onclick="window.open('https://drive.google.com/file/d/1FzxyRVUvEJIBj6UlXh9oSETo7P11jOz0/view?usp=sharing','_blank')">Resume</button>
+            <button id = "button3" class="button" onclick="window.open('https://www.linkedin.com/in/jerry-yang-sfu/','_blank')">LinkedIn</button>
+        </div>
+    </div>
+
+    <div class="about" id="about">
+        <div class="about-header">
+            <h1>About Me</h1>
+        </div>
+        <div class="infoandtech">
+            <div class="description">
+                <h1 class="introduction-header"><b>Who Am I?</b></h1>
+                <p>I'm Jerry, a graduate of Simon Fraser University in BC, Canada. I studied for a BBA and primarily held administrative, managerial, and B2B sales roles for 6 years.</p>
+                <p>My interest in programming began when I figured out how to use Python to automate my administrative tasks, with useful libraries such as Selenium, and OS.</p>
+                <p>I then discovered the world of web development, and the impact that it can have on businesses large and small.</p>
+                <p>With over 1.5 billion active websites today, I decided to learn everything I could about web development, both as a potential career path and a source of secondary income through freelance work.</p>
+                <p>In addition, I possess a Graduate Certificate in Business Analytics from the British Columbia Institute of Technology, which focused heavily on data analysis and visualization using Python, SQL, and Power BI.</p>
+            </div>
+            <div class="tech">
+                <h1 class="introduction-header"><b>Skills</b></h1>
+                <div class="skills">
+                    <img src="./img/icons/HTML-icon.png" class="icon">
+                    <img src="./img/icons/CSS-icon.png" class="icon">
+                    <img src="./img/icons/javascript-icon.png" class="icon">
+                    <img src="./img/icons/boostrap-icon.png" class="icon">
+                    <img src="./img/icons/typescript-icon.png" class="icon">
+                    <img src="./img/icons/react-icon.png" class="icon" id="react">
+                    <img src="./img/icons/SQL-icon.png" class="icon" id="sql">
+                    <img src="./img/icons/github-icon.png" class="icon" id="git">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> 
+</body>
+</html>
