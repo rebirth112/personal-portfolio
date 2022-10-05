@@ -7,6 +7,30 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+#enter {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+#loading-button {
+    width: 1%;
+    height: 55px;
+    background-color: grey;
+    color: black;
+    font-weight: bolder;
+    padding-top: 14px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+
 .navbar-light .navbar-nav .nav-link {
     color: black;
     font-weight: bold;
@@ -33,7 +57,7 @@ body {
 .paragraph {
     max-width: 45%;
     text-align: center;
-    animation-delay: 2.5s;
+    animation-delay: 2.8s;
     animation-duration: 1s;
     animation-name: fade-in;
     animation-fill-mode: forwards;
@@ -59,7 +83,7 @@ body {
     margin: 0 auto;
     letter-spacing: .15em;
     animation:
-        typing 2s steps(25, end) forwards,
+        typing 2s steps(25, end) 1s forwards,
         blink-caret .75s step-end infinite;
 }
 
@@ -139,8 +163,9 @@ body {
     }
 }
 
-.about {
+.about, .projects {
     padding-top: 85px;
+    padding-bottom: 150px;
 }
 
 .about-header {
@@ -202,3 +227,19 @@ body {
 #sql {
     transform: translate(-10px)
 }
+
+.projects {
+    background-image: url("./img/background.jpg");
+    background-size: cover;
+}
+
+.project-title {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.project-title > h1 {
+    font-weight: bolder;
+}
+
