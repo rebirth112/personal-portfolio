@@ -290,3 +290,15 @@ body {
 .projimg {
     padding: 0 0 0 0;
 }
+
+#contact {
+    display: flex;
+    justify-content: center;
+    padding-top: 45px;
+}
+
+#contactForm {
+    padding-left: 150px;
+    padding-right: 150px;
+    font-weight: bold;
+}
