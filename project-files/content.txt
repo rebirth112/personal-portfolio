@@ -1,0 +1,36 @@
+Project - Etch A Sketch
+Repository - https://github.com/rebirth112/etch-a-sketch
+Live - https://rebirth112.github.io/etch-a-sketch/
+Interactive drawing board with selectable colours, and adjustable grid size. DOM manipulation and CSS Flexbox were used.
+
+
+Project - Personal Portfolio
+Repository - https://github.com/rebirth112/personal-portfolio
+Live - https://rebirth112.github.io/personal-portfolio/
+Designed using Bootstrap and custom CSS for typewriter animations, loading screen, and button/link transitions.
+Layout of each section combines both CSS Flexbox and CSS Grid. 
+
+
+Project - Tic Tac Toe
+Repository - https://github.com/rebirth112/tictactoe-js
+Live - https://rebirth112.github.io/tictactoe-js/
+Utilized factory functions, JavaScript DOM Manipulation, CSS Grid and Flexbox to create Tic-Tac-Toe Game.
+
+
+Project - Calculator
+Repository - https://github.com/rebirth112/odin-calculator
+Live - https://rebirth112.github.io/odin-calculator/
+Functional calculator web application with animated night sky background. Used CSS Grid for layout, and JavaScript for calculations.
+
+
+Project - Real Estate Commission Calculator (BC, Canada)
+Repository - https://github.com/rebirth112/real-estate-commission-calculator
+Live - https://rebirth112.github.io/real-estate-commission-calculator/
+Utilized HTML Form validation and JavaScript functions for calculating real estate commissions earned by agents.
+Includes toggle for dark mode. Falling house animation done with CSS. 
+
+
+Project - NewTop Mechanical Ltd. Sample Landing Page
+Repository - https://github.com/rebirth112/newtop-mechanical
+Live - https://rebirth112.github.io/newtop-mechanical/
+Sample landing page for HVAC company based in Vancouver. Primarily used Bootstrap to create simple design with functional navigation bar and picture carousel.

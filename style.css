@@ -175,6 +175,7 @@ body {
 
 .about-header > h1 {
     font-weight: bolder;
+    font-size: 60px;
 }
 
 .introduction-header {
@@ -219,7 +220,6 @@ body {
     transform: translate(12px)
 }
 
-
 #react {
     transform: translate(-35px)
 }
@@ -241,5 +241,52 @@ body {
 
 .project-title > h1 {
     font-weight: bolder;
+    padding-bottom: 50px;
+    font-size: 60px;
 }
 
+.projimg > img {
+    height: 400px;
+    border-radius: 8px;
+    border: solid grey;
+}
+
+
+.projectlayout {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 250px;
+}
+
+.projectheading {
+    font-size: 45px;
+    font-weight: bolder;
+}
+
+.access-buttons {
+    display: flex;
+    gap: 50px;
+}
+
+.live, .github {
+    width: 90px;
+}
+
+.projdescriptor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+
+.projectdescription {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.projimg {
+    padding: 0 0 0 0;
+}
