@@ -271,9 +271,14 @@ body {
     gap: 50px;
 }
 
-.live, .github {
-    width: 90px;
+.writing {
+    justify-content: center;
 }
+
+.live, .github {
+    min-width: 90px;
+}
+
 
 .projdescriptor {
     display: flex;
@@ -284,6 +289,11 @@ body {
 
 .projectdescription {
     font-size: 28px;
+    font-weight: bold;
+}
+
+.writingdescription {
+    font-size: 20px;
     font-weight: bold;
 }
 

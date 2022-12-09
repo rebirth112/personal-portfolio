@@ -3,8 +3,14 @@ let entrance = document.getElementById("enter");
 let loadingButton = document.getElementById("loading-button");
 actualPage.style.display = "none";
 
-let i = 0;
+function setZoom() { 
+    var scale = 'scale(1)';
+    document.body.style.webkitTransform =  scale;    
+    document.body.style.msTransform =   scale;
+    document.body.style.transform = scale;
+}
 
+let i = 0;
 function loader() {
     if (i==0) {
         i = 1;
@@ -29,4 +35,5 @@ function loader() {
 
 }
 
+setZoom();
 loader();
