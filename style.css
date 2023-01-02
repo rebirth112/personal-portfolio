@@ -271,9 +271,6 @@ body {
     gap: 50px;
 }
 
-.writing {
-    justify-content: center;
-}
 
 .live, .github {
     min-width: 90px;
